@@ -78,7 +78,7 @@ export default function ContactForm() {
             error.map((e, i) => (
                 <div key={i} className={`${
                     success ? "text-green-800" : "text-red-600"
-                } px-5 py-2`}></div>
+                } px-5 py-2`}>{e}</div>
             ))}
     </div>
     </>
